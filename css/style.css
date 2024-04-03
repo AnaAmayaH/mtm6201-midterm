@@ -7,12 +7,23 @@ body{
   width: auto;
 
 } 
+
+header {
+  margin: auto;
+}
 h1 {font: 1em sans-serif;
 font-size: 32px;}
 
 .number {
   color: lightgray;
   text-decoration: line-through;
+}
+
+.forgot {
+  padding: auto;
+}
+.dismiss {
+  padding: auto;
 }
 
 p {
@@ -116,7 +127,17 @@ form {
     width: 100%;
   }
   
+  /*order for links with flex*/
+  .link-order {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
   
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
 
 
 
