@@ -45,15 +45,13 @@ form {
   input[type="checkbox"] {
     margin-top: 5px;
   }
-  
+  /*
   button[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    background-color: #4CAF50;
-    color: white;
+    color: black;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
   }
   
@@ -61,7 +59,7 @@ form {
     background-color: blue;
   }
  
-    
+    */
 
 
 .profile-name {
@@ -72,7 +70,7 @@ form {
     border-radius: 4px;
   
 }
-
+/*profile-image circle*/
 .profile-image {
     display: block;
     margin: 0 auto;
@@ -84,6 +82,41 @@ form {
 }
 
 
+  a.button:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  a.button:hover, a.button:active {
+    background-color: blue;
+  }
+
+  a.forgot:link, a.forgot:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a.forgot:hover, a.forgot:active{
+    text-decoration: underline;
+    color: black;
+
+  }
+  a.dismiss:link, a.dismiss:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a.dismiss:hover, a.dismiss:active{
+    text-decoration: underline;
+    color: black;}
+ #button {
+    width: 100%;
+  }
+  
+  
 
 
 
