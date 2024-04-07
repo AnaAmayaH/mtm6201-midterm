@@ -116,7 +116,7 @@ form {
   }
   
   a.button:hover, a.button:active {
-    background-color: blue;
+    background-color: green;
   }
 
   a.forgot:link, a.forgot:visited {
@@ -135,7 +135,7 @@ form {
   a.dismiss:hover, a.dismiss:active{
     text-decoration: underline;
     color: black;}
- #button {
+ .button {
     width: 100%;
   }
   
