@@ -7,18 +7,20 @@ body{
   max-width: 960px;
   margin-inline: auto;
   font-size: 20px;
-  width: 80%;
+  padding: 0 2rem;
+ 
 
 } 
 
 header {
-  margin: auto;
+  margin:  0 auto;
   width: 80%;
+  padding: 1rem 3rem;
 
 }
 
 main {
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
 }
 h1 {font: 1em sans-serif;
@@ -141,14 +143,22 @@ form {
   .link-order {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 5rem;
+    place-items: center;
+  }
+
+  img {
+    border-radius: 10px;
   }
   
   .footer {
-    margin: auto;
-    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 30px;
     display: flex;
     flex-direction: row;
+    gap: 8rem;
+    place-items: center;
   }
 
 
