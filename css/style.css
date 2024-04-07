@@ -4,7 +4,7 @@ body{
   background-color: white;
   font-family: Arial, sans-serif;
   /*max-width to make responsive my web*/
-  max-width: 960px;
+  max-width: 1200px;
   margin-inline: auto;
   font-size: 20px;
   padding: 0 2rem;
