@@ -135,9 +135,8 @@ form {
   a.dismiss:hover, a.dismiss:active{
     text-decoration: underline;
     color: black;}
- .button {
-    width: 100%;
-  }
+
+
   
   /*order for links with flex in the same line*/
   .link-order {
