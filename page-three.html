@@ -12,28 +12,28 @@
 
 <body>
     <header>
-        <div class="profile-header">
+        <div class="profile-header" role="img">
         <h2>San Francisco</h2>
         <img src="img/medium-shot-night-portrait.jpeg" alt="volunteer" class="profile-image2">
         </div>
     </header>
-    <main>
+    <main role="main">
         <p>Trending charities</p>
         <!-- media to change size of picture -->
         <picture>
-            <source media="(min-width:640px)" srcset="img/oikos-helping-hand-2425657_640.png">
-            <source media="(min-width:465px)" srcset="img/oikos-helping-hand-2425657_640-320_x_180.png">
-          <img src="img/oikos-helping-hand-2425657_640.png" alt="helping" class="">
+            <source media="(min-width:640px)" srcset="img/oikos-helping-hand-2425657_640.png" aria-label="people helping ">
+            <source media="(min-width:465px)" srcset="img/oikos-helping-hand-2425657_640-320_x_180.png" aria-label="people helping">
+          <img src="img/oikos-helping-hand-2425657_640.png" alt="helping">
         </picture>
       
         <h2>Ganha Residential Fund</h2>
         <div class="totalraised">
         <p>Total raised:</p>
-        <p><span class="number">$40,000</span></p> <!--span for div a special style-->
+        <p><span aria-label="goal amount" class="number">$40,000</span></p> <!--span for div a special style-->
         <h2>$50,000</h2>
         </div>
     
-        <div class="profile-header2">
+        <div class="profile-header2" role="img">
            
         <img src="img/freckled-woman-face-portrait-natural-beauty-concept.jpeg" alt="woman" class="profile-image3"><br>
         <h2>Megan Hunt</h2><br>
@@ -42,24 +42,25 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consectetur assumenda quae quisquam, omnis,
             autem corrupti at illo ea perferendis porro. Voluptatibus odio numquam hic molestiae natus expedita quia
             nisi.</p>
-            <a class="button3" href="page-three.html"> SUPPORT THIS PROJECT</a>
+            <a role="button" class="button3" href="page-three.html"> SUPPORT THIS PROJECT</a>
     </main>
 
     <footer>
         <div class="footer">
-            <span class="material-symbols-outlined">
-                home
+            <span role="button" class="material-symbols-outlined" aria-label="Home button">
+              home
             </span>
-            <span class="material-symbols-outlined">
-                favorite
+            <span role="button" class="material-symbols-outlined" aria-label="Favorites button">
+              favorite
             </span>
-            <span class="material-symbols-outlined">
-                search
+            <span role="button" class="material-symbols-outlined" aria-label="Search button">
+              search
             </span>
-            <span class="material-symbols-outlined">
-                person
+            <span role="button" class="material-symbols-outlined" aria-label="Profile button">
+              person
             </span>
-        </div>
+          </div>
+       
 
     </footer>
 
