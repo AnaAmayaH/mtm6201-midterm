@@ -1,6 +1,4 @@
-
-
-body{
+body {
   background-color: white;
   font-family: Arial, sans-serif;
   /*max-width to make responsive my web*/
@@ -8,12 +6,12 @@ body{
   margin-inline: auto;
   font-size: 20px;
   padding: 0 2rem;
- 
 
-} 
+
+}
 
 header {
-  margin:  0 auto;
+  margin: 0 auto;
   width: 80%;
   padding: 1rem 3rem;
 
@@ -23,8 +21,11 @@ main {
   margin: 0 auto;
   width: 50%;
 }
-h1 {font: 1em sans-serif;
-font-size: 32px;}
+
+h1 {
+  font: 1em sans-serif;
+  font-size: 32px;
+}
 
 .number {
   color: lightgray;
@@ -34,6 +35,7 @@ font-size: 32px;}
 .forgot {
   padding: auto;
 }
+
 .dismiss {
   padding: auto;
 }
@@ -41,196 +43,257 @@ font-size: 32px;}
 p {
   color: gray;
 }
-form {
-    width: 100%;
-    margin: auto;
 
-  }
-  
-  label {
-    display: block;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
-  input[type="email"],
-  input[type="password"] {
-    width: 100%;
-    padding: 8px;
-    margin-top: 3px;
-    font-size: 20px;
-  
-    border: none;
-    border-bottom:2px solid lightgrey;
-  }
-  
-  input[type="checkbox"] {
-    margin-top: 2px;
-  }
-  
-  input[type="remember"] {
-    width: 100%;
-    padding: 5px;
-    margin-top: 15px;
-    color: black;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type="forgotpassword"]:hover {
-    background-color: blue;
-  }
- 
-    
+form {
+  width: 100%;
+  margin: auto;
+
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  font-size: 20px;
+
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+input[type="checkbox"] {
+  margin-top: 2px;
+}
+
+input[type="remember"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="forgotpassword"]:hover {
+  background-color: blue;
+}
+
+
 
 
 .profile-name {
   display: flex;
   flex-direction: column;
   align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: antiquewhite;
-    border-radius: 4px;
-  
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: antiquewhite;
+  border-radius: 4px;
+
 }
+
 /*profile-image to a little circle*/
 .profile-image {
-    /*display: block;
-    margin: 0 500px;*/
-    margin-left: auto;
-    margin-right: 0;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 2rem;
+
+  margin-left: auto;
+  margin-right: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+
+.profile-image2 {
+
+  margin-left: auto;
+  margin-right: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.profile-header2 {
+  display: flex;
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+
+.profile-image3 {
+
+  margin-left: 0;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+
 }
 
 /*button changing color with hover*/
-  a.button:link, a:visited {
-    background-color: blue;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-  }
-  
-  a.button:hover, a.button:active {
-    background-color: green;
-  }
-  a.button1:link, a:visited {
-    background-color: blue;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-    width: 100%;
-    margin: auto;
-  }
-  
-  a.button1:hover, a.button:active {
-    background-color: green;
-  }
+a.button:link,
+a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
 
-  a.button3:link, a:visited {
-    background-color: blue;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-    transition: 0.3s;
-    width: 100%;
-  }
-  
-  a.button3:hover, a.button3:active {
-    transform: translateY(-30PX);
-    transition: 0.2s;
-    background-color: green;
-  }
+a.button:hover,
+a.button:active {
+  background-color: green;
+}
 
-  a.forgot:link, a.forgot:visited {
-    text-decoration: none;
-    color: black;
-  }
-  a.forgot:hover, a.forgot:active{
-    text-decoration: underline;
-    color: black;
+a.button1:link,
+a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+}
 
-  }
-  a.dismiss:link, a.dismiss:visited {
+a.button1:hover,
+a.button:active {
+  background-color: green;
+}
 
-    transition: 0.3s;
-    text-decoration: none;
-    color: black;
-  }
-  a.dismiss:hover, a.dismiss:active{
-    text-decoration: underline;
-transform: scale(2);
-    color: blue;}  
+a.button3:link,
+a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+a.button3:hover,
+a.button3:active {
+  transform: translateY(-30PX);
+  transition: 0.2s;
+  background-color: green;
+}
+
+a.forgot:link,
+a.forgot:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.forgot:hover,
+a.forgot:active {
+  text-decoration: underline;
+  color: black;
+
+}
+
+a.dismiss:link,
+a.dismiss:visited {
+
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+a.dismiss:hover,
+a.dismiss:active {
+  text-decoration: underline;
+  transform: scale(2);
+  color: blue;
+}
 
 
-  
-  /*order for links with flex in the same line*/
-  .link-order {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 13rem;
-    align-items: center;
-    font-size: 1.5rem;
-    padding: 15px 15px;
 
-  }
+/*order for links with flex in the same line*/
+.link-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 13rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 15px 15px;
 
-  img {
-    border-radius: 10px;
-  }
+}
 
-  picture {
+img {
+  border-radius: 10px;
+}
+
+picture {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  
 
-  .forgotpassword {
-    font-size: 4rem;
-  }
 
-  .remember {
-    font-size: 4rem;
-  }
-
-  .totalraised {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .footer {
-    margin: 0 auto;
-    max-width: 960px;
-    height: 30px;
-    padding: 20px;
-    background-color: antiquewhite;
-    display: flex;
-    /*center items*/
-    flex-direction: row;
-    gap: 8rem;
-    justify-content: center;
-    align-items: center;
+.forgotpassword {
+  font-size: 4rem;
 }
-  }
+
+.remember {
+  font-size: 4rem;
+}
+
+.totalraised {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 960px;
+  height: 30px;
+  padding: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  /*center items*/
+  flex-direction: row;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+}
 
 
 
@@ -239,13 +302,8 @@ transform: scale(2);
 /*icons style ta*/
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-   black, 
+    'FILL'0,
+    'wght'400,
+    'GRAD'0,
+    'opsz'24 black,
 }
-
-
-
-
