@@ -280,6 +280,10 @@ picture {
   align-items: center;
 }
 
+footer {
+  padding-top: 15px;
+}
+
 .footer {
   margin: 0 auto;
   max-width: 960px;
@@ -293,7 +297,7 @@ picture {
   justify-content: center;
   align-items: center;
 }
-}
+
 
 
 
