@@ -1,10 +1,10 @@
 body {
-  background-color: white;
+  background-color: azure;
   font-family: Arial, sans-serif;
   /*max-width to make responsive my web*/
   max-width: 1200px;
   margin-inline: auto;
-  font-size: 20px;
+  font-size: 25px;
   padding: 0 2rem;
 
 
@@ -20,15 +20,20 @@ header {
 main {
   margin: 0 auto;
   width: 50%;
+ 
 }
 
 h1 {
-  font: 1em sans-serif;
-  font-size: 32px;
+  font: sans-serif;
+
+}
+
+h2 {
+  font-size: 28px;
 }
 
 .number {
-  color: lightgray;
+  color: olive;
   text-decoration: line-through;
 }
 
@@ -36,12 +41,14 @@ h1 {
 
 
 p {
-  color: gray;
+  color: grey;
+  font-size: 2rem;
 }
 
 form {
   width: 100%;
   margin: auto;
+  font-size: 2rem;
 
 }
 
@@ -244,7 +251,7 @@ a.dismiss:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 13rem;
+  gap: 5rem;
   align-items: center;
   font-size: 1.5rem;
   padding: 15px 15px;
@@ -275,6 +282,7 @@ picture {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
 }
 
 footer {
